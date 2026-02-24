@@ -21,4 +21,6 @@ jobs:
           distribution: 'temurin'
 
       - name: Run Automated Tests
+        working-directory: ./automation-suite
         run: mvn test
+       
